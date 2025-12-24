@@ -1,0 +1,46 @@
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+}
+
+.book-card h3 {
+  margin: 0 0 6px;
+}
+
+.desc {
+  font-size: 13px;
+  color: #555;
+}
+
+.status {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
