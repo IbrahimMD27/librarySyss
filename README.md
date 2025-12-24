@@ -1,59 +1,27 @@
-# LibMan
+📚 LibraryHub
+A sleek, modern library management system built with Angular 18+ and Firebase. LibraryHub features a rich-textured UI, role-based access control, and real-time data synchronization.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+📺 Project Demo
+Watch the walk-through of the application here: https://www.loom.com/share/abab5adcb165408c88a50e77e39e0f48
 
-## Development server
+✨ Features
+Sleek UI/UX: Built with Tailwind CSS, featuring high-quality shadows, rounded layouts, and a "rich" aesthetic.
 
-To start a local development server, run:
+Role-Based Access Control: * Admins: Can Edit, Delete, and Manage the book collection.
 
-```bash
-ng serve
-```
+Students: Can view the catalog and Borrow books.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Real-time Database: Powered by Firestore for instant updates across all clients.
 
-## Code scaffolding
+Secure Authentication: Integrated Firebase Auth with custom role fetching.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Responsive Design: Optimized for mobile, tablet, and desktop viewports.
 
-```bash
-ng generate component component-name
-```
+🛠️ Tech Stack
+Frontend: Angular (Standalone Components, Signals/Observables)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Styling: Tailwind CSS
 
-```bash
-ng generate --help
-```
+Backend: Firebase (Authentication & Firestore)
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Routing: Angular Router with Auth & Admin Guards
